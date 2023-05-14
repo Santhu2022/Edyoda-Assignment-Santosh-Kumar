@@ -6,10 +6,14 @@
 .main-content {
   flex-grow: 1;
   background-image: url("https://res.cloudinary.com/drfluyp2q/image/upload/v1684047458/BackGround_pccoaa.jpg");
+  padding-top: 70px;
+}
+.main-responsive-container {
+  width: 85%;
+  margin: auto;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding: 80px 80px;
+  justify-content: space-between;
 }
 .left-section {
   display: flex;
@@ -69,5 +73,51 @@
 .highlighted-text {
   color: #0096ff;
   font-size: 27px;
-  
+}
+
+.form-section {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  padding: 28px 0;
+}
+.progress-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 28px;
+}
+.stage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 5px;
+}
+.stage-number-container {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  background: #0096ff;
+  color: #ffffff;
+  border-radius: 100%;
+}
+.stage-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  color: #3c4852;
 }

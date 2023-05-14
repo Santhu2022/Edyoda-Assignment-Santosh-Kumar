@@ -1,0 +1,124 @@
+.form {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.form-header {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #3c4852;
+}
+.plans-list {
+  /* border: 1px solid red; */
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px 0;
+  gap: 12px;
+  
+
+  background: #ffffff;
+  border-top: 2px solid #bebebe;
+}
+.summary-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 90%;
+  margin: auto;
+}
+.fee-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #3c4852;
+}
+.fee {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #3c4852;
+}
+.minus-fee{
+    font-weight: 600;
+}
+.alert-container {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 24px;
+  gap: 4px;
+
+  background: linear-gradient(
+    135deg,
+    rgba(222, 67, 19, 0.2) 0%,
+    rgba(222, 67, 19, 0.2) 0.75%,
+    rgba(222, 67, 19, 0.2) 2.92%,
+    rgba(222, 68, 20, 0.2) 6.37%,
+    rgba(223, 69, 21, 0.2) 10.97%,
+    rgba(223, 72, 22, 0.2) 16.59%,
+    rgba(224, 75, 24, 0.2) 23.1%,
+    rgba(225, 80, 27, 0.2) 30.37%,
+    rgba(227, 86, 31, 0.2) 38.27%,
+    rgba(229, 94, 36, 0.2) 46.66%,
+    rgba(231, 104, 43, 0.2) 55.41%,
+    rgba(235, 117, 51, 0.2) 64.39%,
+    rgba(238, 132, 60, 0.2) 73.47%,
+    rgba(243, 149, 71, 0.2) 82.52%,
+    rgba(248, 169, 84, 0.2) 91.41%,
+    rgba(254, 193, 99, 0.2) 100%
+  );
+  border-radius: 8px;
+}
+.alert-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+}
+
+.offer-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #de4313;
+}
+.alert-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+
+.offer-alert-image {
+  width: 24px;
+  height: 24px;
+}
+.offer-validity {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #de4313;
+}
