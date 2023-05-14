@@ -1,0 +1,102 @@
+.navbar {
+  height: 65px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.responsive-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 64px;
+  /* border: 1px solid red; */
+}
+
+.header-logo {
+  width: 100px;
+  height: 20px;
+  cursor: pointer;
+}
+.nav-items-list {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 64px;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.nav-item-text {
+  font-family: "Raveal";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+.down-arrow {
+  width: 10px;
+  height: 6px;
+}
+
+.right-content-navbar {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+}
+.search-image {
+  width: 22px;
+  height: 22px;
+}
+.login-button {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.join-now-button {
+  height: 36px;
+  width: 136px;
+  background-image: linear-gradient(to left, #0048ff 4.63%, #0096ff 100%);
+  border: none;
+  border-radius: 52px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 19px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+* {
+  margin: 0;
+}

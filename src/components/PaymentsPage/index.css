@@ -1,0 +1,73 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main-content {
+  flex-grow: 1;
+  background-image: url("https://res.cloudinary.com/drfluyp2q/image/upload/v1684047458/BackGround_pccoaa.jpg");
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 80px 80px;
+}
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 36px;
+}
+.left-section-heading {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 32px;
+}
+.old-price {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  text-decoration: 3px red line-through;
+}
+.new-price {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33px;
+  color: #0096ff;
+}
+
+.features-list {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 30px;
+}
+.feature-list-item {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.feature-icon {
+  width: 40px;
+  height: 40px;
+}
+.feature-text {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.highlighted-text {
+  color: #0096ff;
+  font-size: 27px;
+  
+}
