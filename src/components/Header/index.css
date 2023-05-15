@@ -83,12 +83,6 @@
   cursor: pointer;
   outline: none;
 }
-@media screen and (max-width: 767px) {
-  .login-button {
-    font-size: 15px;
-    line-height: 10px;
-  }
-}
 .join-now-button {
   height: 36px;
   width: 136px;
@@ -102,6 +96,12 @@
   color: #ffffff;
   cursor: pointer;
   outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .login-button {
+    display: none;
+  }
 }
 @media screen and (max-width: 767px) {
   .nav-items-list {
@@ -120,6 +120,73 @@
 .hamburger-icon {
   font-size: 26px;
 }
+@media screen and (min-width: 768px) {
+  .hamburger-button-small {
+    display: none;
+  }
+}
+.nav-menu-sm {
+  background-color: #ffffff;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 850ms;
+  padding-top: 25px;
+}
+.active {
+  right: 0;
+  transition: 350ms;
+}
+.nav-menu-list-sm {
+  margin: auto;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  border-top: 1px solid #bebebe;
+}
+.nav-item-sm {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 16px 10%;
+  border-bottom: 1px solid #bebebe;
+}
+.navbar-toggle-item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 15px;
+  align-self: flex-end;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.navbar-cross-icon {
+  font-size: 26px;
+}
+.sm-login-btn-contianer {
+  width: 85%;
+  margin: auto;
+}
+.login-button-sm {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
 * {
   margin: 0;
 }
