@@ -4,24 +4,24 @@ import "./index.css";
 
 const plans = [
   {
+    id: 0,
     months: 12,
     totalAmount: 179,
     perMonth: 15,
-    isExpired: false,
     isRecommended: true,
   },
   {
+    id: 1,
     months: 6,
     totalAmount: 149,
     perMonth: 25,
-    isExpired: false,
     isRecommended: false,
   },
   {
+    id: 2,
     months: 3,
     totalAmount: 99,
     perMonth: 33,
-    isExpired: false,
     isRecommended: false,
   },
 ];
@@ -61,13 +61,12 @@ const SubscribeForm = () => {
       <p className="form-header">Select your subscription plan</p>
       <ul className="plans-list">
         {renderExpiredPlanItem()}
-        {plans.map((eachPlan, index) => (
+        {plans.map((eachPlan) => (
           <PlanItem
-            key={index}
+            key={eachPlan.id}
             planDetails={eachPlan}
             updateSelectedPlan={updateSelectedPlan}
-            isSelected={index === selectedPlanId}
-            id={index}
+            isSelected={eachPlan.id === selectedPlanId}
           />
         ))}
       </ul>

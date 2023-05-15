@@ -2,7 +2,6 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 import "./index.css";
-import "./smallnav.css";
 
 const Header = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -60,11 +59,12 @@ const Header = () => {
             onClick={() => setSidebar(false)}
           />
         </div>
-        <div
-          className="sm-login-btn-contianer"
-          onClick={() => setSidebar(false)}
-        >
-          <button type="button" className="login-button-sm">
+        <div className="sm-login-btn-contianer">
+          <button
+            type="button"
+            className="login-button-sm"
+            onClick={() => setSidebar(false)}
+          >
             Log in
           </button>
         </div>

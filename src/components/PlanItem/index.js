@@ -1,8 +1,8 @@
 import "./index.css";
 
 const PlanItem = (props) => {
-  const { planDetails, isSelected, updateSelectedPlan, id } = props;
-  const { months, totalAmount, perMonth, isRecommended } = planDetails;
+  const { planDetails, isSelected, updateSelectedPlan } = props;
+  const { months, totalAmount, perMonth, isRecommended, id } = planDetails;
   const planItemClass = isSelected ? "plan-item selected-plan" : "plan-item";
   const statusImage = isSelected
     ? "./images/selected-plan.png"
