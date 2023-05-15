@@ -1,3 +1,4 @@
+import { RxHamburgerMenu } from "react-icons/rx";
 import "./index.css";
 
 const Header = () => (
@@ -24,13 +25,20 @@ const Header = () => (
       </ul>
       <div className="right-content-navbar">
         <button type="button" className="search-button">
-          <img src="./images/search-icon.png" alt="search" className="search-image" />
+          <img
+            src="./images/search-icon.png"
+            alt="search"
+            className="search-image"
+          />
         </button>
         <button type="button" className="login-button">
           Log in
         </button>
         <button type="button" className="join-now-button">
           JOIN NOW
+        </button>
+        <button className="hamburger-button-small">
+          <RxHamburgerMenu className="hamburger-icon" />
         </button>
       </div>
     </div>

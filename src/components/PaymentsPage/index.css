@@ -6,7 +6,9 @@
 .main-content {
   flex-grow: 1;
   background-image: url("https://res.cloudinary.com/drfluyp2q/image/upload/v1684047458/BackGround_pccoaa.jpg");
+  background-size: cover;
   padding-top: 70px;
+  padding-bottom: 70px;
 }
 .main-responsive-container {
   width: 85%;
@@ -14,6 +16,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 20px;
 }
 .left-section {
   display: flex;
@@ -62,6 +65,7 @@
   width: 40px;
   height: 40px;
 }
+
 .feature-text {
   font-family: "Roboto";
   font-weight: 500;
@@ -74,7 +78,43 @@
   color: #0096ff;
   font-size: 27px;
 }
-
+@media screen and (max-width: 767px) {
+  .main-responsive-container {
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 70px;
+    /* border: 1px solid red; */
+  }
+  .left-section{
+    gap: 26px;
+  }
+  .left-section-heading {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .old-price {
+    font-size: 26px;
+  }
+  .new-price {
+    font-size: 26px;
+  }
+  .features-list{
+    gap: 20px;
+  }
+  .feature-list-item{
+    gap: 20px;
+  }
+  .feature-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .feature-text{
+    font-size: 18px;
+  }
+  .highlighted-text{
+    font-size: 22px;
+  }
+}
 .form-section {
   background: #ffffff;
   border-radius: 8px;
@@ -82,6 +122,7 @@
   max-width: 500px;
   padding: 28px 0;
 }
+
 .progress-container {
   display: flex;
   flex-direction: row;
@@ -116,8 +157,17 @@
 .stage-name {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 15px;
   letter-spacing: -0.01em;
   color: #3c4852;
+}
+@media screen and (max-width: 767px){
+  .form-section{
+    width: 100%;
+    margin: auto;
+  }
+  .stage-number-container{
+    font-size: 18px;
+  }
 }

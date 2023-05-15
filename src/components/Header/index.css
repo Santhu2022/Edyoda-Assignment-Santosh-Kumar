@@ -35,7 +35,7 @@
   cursor: pointer;
 }
 .nav-item-text {
-  font-family: "Raveal";
+  font-family: "Arial";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -72,7 +72,7 @@
   height: 22px;
 }
 .login-button {
-  font-family: "Raleway";
+  font-family: "Arial";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -82,6 +82,12 @@
   background-color: transparent;
   cursor: pointer;
   outline: none;
+}
+@media screen and (max-width: 767px) {
+  .login-button {
+    font-size: 15px;
+    line-height: 10px;
+  }
 }
 .join-now-button {
   height: 36px;
@@ -96,6 +102,23 @@
   color: #ffffff;
   cursor: pointer;
   outline: none;
+}
+@media screen and (max-width: 767px) {
+  .nav-items-list {
+    display: none;
+  }
+  .join-now-button {
+    display: none;
+  }
+}
+.hamburger-button-small {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.hamburger-icon {
+  font-size: 26px;
 }
 * {
   margin: 0;

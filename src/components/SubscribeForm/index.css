@@ -27,7 +27,6 @@
   justify-content: center;
   padding: 16px 0;
   gap: 12px;
-  
 
   background: #ffffff;
   border-top: 2px solid #bebebe;
@@ -57,8 +56,8 @@
   letter-spacing: 0.03em;
   color: #3c4852;
 }
-.minus-fee{
-    font-weight: 600;
+.minus-fee {
+  font-weight: 600;
 }
 .alert-container {
   display: flex;
@@ -121,4 +120,73 @@
   font-weight: 400;
   font-size: 14px;
   color: #de4313;
+}
+.gst-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #3c4852;
+}
+.total-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3c4852;
+}
+.total-payable-amount {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.03em;
+
+  color: #3c4852;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px;
+  gap: 16px;
+  height: 43px;
+}
+.cancel-btn {
+  border: 2px solid #f77171;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  color: #f77171;
+  width: 50%;
+  cursor: pointer;
+  outline: none;
+}
+.proceed-btn {
+  border: none;
+  background: #47ba68;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  color: #ffffff;
+  width: 50%;
+  cursor: pointer;
+  outline: none;
+}
+.razorpay-icon {
+  width: 120px;
+  height: 42.69px;
+}
+
+@media screen and (max-width: 767px){
+  .form-header{
+    font-size: 20px;
+  }
 }

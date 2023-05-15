@@ -88,7 +88,7 @@ const PaymentsPage = () => {
       <Header />
       <div className="main-content">
         <div className="main-responsive-container">
-          {/* {renderLeftSection()} */}
+          {renderLeftSection()}
           {renderFormSection()}
         </div>
       </div>
